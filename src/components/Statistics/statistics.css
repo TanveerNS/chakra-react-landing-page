@@ -1,13 +1,13 @@
-.testimonial .heading{
+.statistics .heading{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     font-weight: bold
 }
-.testimonial .testimonial-btn-next{
+.statistics .statistics-btn-next{
     margin-top: 0;
 }
-.testimonial .testimonial-btn-prev{
+.statistics .statistics-btn-prev{
     margin-right: 1rem;
 }
