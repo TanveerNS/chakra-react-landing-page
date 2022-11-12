@@ -12,7 +12,7 @@ const Testimonials = () => {
     const [testChange, setTestChange] = useState(true)
     return (
         <>
-        <Box className='testimonial' display={'flex'} alignContent={'center'} justifyContent={'space-around'} mb={'3rem'} >
+        <Box className='testimonial' display={'flex'} alignContent={'center'} justifyContent={'space-around'} mb={'3rem'}  >
             <h1 className={'heading'} >Testimonials</h1>
             <Stack display={'flex'} flexDirection={'row'}>
                 <Button className='testimonial-btn-prev' onClick={(e) => { setTestChange(!testChange) }}>

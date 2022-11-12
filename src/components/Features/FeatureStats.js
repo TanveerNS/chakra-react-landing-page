@@ -80,7 +80,6 @@ function FeatureStats() {
               ))}
             </SimpleGrid>
           </Stack>
-          <Flex flex={1} />
         </Stack>
       </Container>
     </Box>

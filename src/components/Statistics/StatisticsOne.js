@@ -45,7 +45,7 @@ import {
   
 function StatisticsOne() {
     return (
-      <Box maxW="7xl" mx={'auto'} pt={5} px={{ base: 2, sm: 12, md: 17 }}>
+      <Box maxW="7xl" mx={'auto'} mb={'6rem'} pt={5} px={{ base: 2, sm: 12, md: 17 }}>
         <chakra.h1
           textAlign={'center'}
           fontSize={'4xl'}

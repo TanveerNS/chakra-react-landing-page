@@ -14,7 +14,7 @@ const Statistics = () => {
 
   return (
     <>
-    <Box className='statistics' display={'flex'} alignContent={'center'} justifyContent={'space-around'} mb={'3rem'} >
+    <Box className='statistics' display={'flex'} alignContent={'center'} justifyContent={'space-around'} mb={'1rem'} mt={'5rem'} pb={'1rem'} borderBottom={'1px solid gray'} >
         <h1 className={'heading'} >Statistics</h1>
         <Stack display={'flex'} flexDirection={'row'}>
             <Button className='statistics-btn-prev' onClick={(e) => { setTestChange(!testChange) }}>
