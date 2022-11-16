@@ -1,5 +1,3 @@
-import React from 'react'
-
 import {
     Flex,
     Text,
@@ -10,6 +8,7 @@ import {
     useColorModeValue,
     useDisclosure,
   } from '@chakra-ui/react';
+
   import { ChevronDownIcon } from '@chakra-ui/icons';
 
 const MobileNavItem = ({ label, children, href }) => {

@@ -10,10 +10,9 @@ import {
   Tag,
   useColorModeValue,
 } from '@chakra-ui/react';
-import Logo from '../common/Logo';
-import FooterListHeader from '../common/FooterListHeader';
+import Logo from '../common/Footer/Logo';
+import FooterListHeader from '../common/Footer/FooterListHeader';
 import FooterLinks from '../common/Footer/FooterLinks';
-
 
 function Footer() {
   return (

@@ -1,5 +1,3 @@
-import React from 'react'
-
 import {
     Box,
     VStack,
@@ -11,21 +9,9 @@ import {
     GridItem,
     Container,
   } from '@chakra-ui/react';
-  import {} from '@chakra-ui/react';
+import FeatureCard from '../common/Feature/FeatureCard';
   
-  
-  const Feature = ({ heading, text }) => {
-    return (
-      <GridItem>
-        <chakra.h3 fontSize="xl" fontWeight="600">
-          {heading}
-        </chakra.h3>
-        <chakra.p>{text}</chakra.p>
-      </GridItem>
-    );
-  };
-  
- function FeatureCTA() {
+function FeatureCTA() {
     return (
       <Box as={Container} maxW="7xl" mt={14} p={4}>
         <Grid
@@ -63,22 +49,7 @@ import {
             md: 'repeat(4, 1fr)',
           }}
           gap={{ base: '8', sm: '12', md: '16' }}>
-          <Feature
-            heading={'First Feature'}
-            text={'Short text describing one of you features/service'}
-          />
-          <Feature
-            heading={'Second Feature'}
-            text={'Short text describing one of you features/service'}
-          />
-          <Feature
-            heading={'Third Feature'}
-            text={'Short text describing one of you features/service'}
-          />
-          <Feature
-            heading={'Fourth Feature'}
-            text={'Short text describing one of you features/service'}
-          />
+          <FeatureCard />
         </Grid>
       </Box>
     );

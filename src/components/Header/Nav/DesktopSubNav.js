@@ -1,5 +1,3 @@
-import React from 'react'
-
 import {
     Box,
     Flex,
@@ -9,12 +7,9 @@ import {
     Link,
     useColorModeValue
   } from '@chakra-ui/react';
-  import {
-    ChevronRightIcon
-  } from '@chakra-ui/icons';
+import { ChevronRightIcon } from '@chakra-ui/icons';
 
-const DesktopSubNav = ({ label, href, subLabel }) => {
-    return (
+const DesktopSubNav = ({ label, href, subLabel }) => 
       <Link
         href={href}
         role={'group'}
@@ -44,7 +39,6 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
           </Flex>
         </Stack>
       </Link>
-    );
-  };
+
 
 export default DesktopSubNav

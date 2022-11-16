@@ -18,7 +18,6 @@ import {
   SunIcon,
 } from '@chakra-ui/icons';
 
-
 import DesktopNav from './Nav/DesktopNav';
 import MobileNav from './Nav/MobileNav';
 

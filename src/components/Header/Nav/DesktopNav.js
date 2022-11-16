@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { Box,
     Stack,
     Link,
@@ -9,7 +7,7 @@ import { Box,
     useColorModeValue
   } from '@chakra-ui/react';
 
-  import {NAV_ITEMS} from '../../../mockData/data'
+import {NAV_ITEMS} from '../../../mockData/data'
 import DesktopSubNav from './DesktopSubNav';
 
 const DesktopNav = () => {
