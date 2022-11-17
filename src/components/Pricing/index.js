@@ -13,20 +13,7 @@ import {
   Button,
 } from '@chakra-ui/react';
 import { FaCheckCircle } from 'react-icons/fa';
-
-function PriceWrapper({ children }) {
-  return (
-    <Box
-      mb={4}
-      shadow="base"
-      borderWidth="1px"
-      alignSelf={{ base: 'center', lg: 'flex-start' }}
-      borderColor={useColorModeValue('gray.200', 'gray.500')}
-      borderRadius={'xl'}>
-      {children}
-    </Box>
-  );
-}
+import PriceWrapper from './PriceWrapper';
 
 function Pricing() {
   return (
